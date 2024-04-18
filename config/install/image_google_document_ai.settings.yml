@@ -1,0 +1,5 @@
+credentials: ''
+projectId: ''
+location: us
+processor: ''
+processor_type: form_parser

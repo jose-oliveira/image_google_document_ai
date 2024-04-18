@@ -1,0 +1,17 @@
+{
+    "name": "doc_transformer/image_google_document_ai",
+    "description": "Extracts data from an image field using Google Document AI and use it to fill its entity's fields.",
+    "type": "drupal-custom-module",
+    "license": "GPL-2.0-or-later",
+    "version": "1.0.0-dev",
+    "authors": [
+        {
+            "name": "Jose M M Oliveira (jmoreira)",
+            "homepage": "https://www.drupal.org/u/jmoreira",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "google/cloud-document-ai": "^1.2"
+    }
+}

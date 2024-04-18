@@ -1,0 +1,7 @@
+name: Image Google Document AI
+type: module
+description: Extracts data from an image field using Google Document AI and use it to fill its entity's fields.
+package: AI
+core_version_requirement: ^9 || ^10
+dependencies:
+  - image

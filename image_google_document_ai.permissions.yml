@@ -1,0 +1,3 @@
+administer image_google_document_ai configuration:
+  title: 'Administer image_google_document_ai configuration'
+  restrict access: true

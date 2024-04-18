@@ -1,0 +1,6 @@
+image_google_document_ai.settings_form:
+  title: 'Image Google Document AI'
+  description: 'Configure Image Google Document AI.'
+  parent: system.admin_config_services
+  route_name: image_google_document_ai.settings_form
+  weight: 10

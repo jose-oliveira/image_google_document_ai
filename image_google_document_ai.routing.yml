@@ -1,0 +1,7 @@
+image_google_document_ai.settings_form:
+  path: '/admin/config/services/image-google-document-ai'
+  defaults:
+    _title: 'Image Google Document AI settings'
+    _form: 'Drupal\image_google_document_ai\Form\SettingsForm'
+  requirements:
+    _permission: 'administer image_google_document_ai configuration'

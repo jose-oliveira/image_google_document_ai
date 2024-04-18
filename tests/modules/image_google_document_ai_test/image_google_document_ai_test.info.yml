@@ -1,0 +1,7 @@
+name: Image Google Document AI Test
+type: module
+description: 'Provides dummy service provider.'
+package: Testing
+version: VERSION
+dependencies:
+  - image_google_document_ai

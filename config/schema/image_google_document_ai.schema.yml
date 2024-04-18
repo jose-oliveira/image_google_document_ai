@@ -1,0 +1,20 @@
+# Schema for the configuration files of the Image Google Document AI module.
+image_google_document_ai.settings:
+  type: config_object
+  label: 'Image Google Document AI settings'
+  mapping:
+    credentials:
+      type: string
+      label: 'Credentials'
+    projectId:
+      type: string
+      label: 'Project ID'
+    location:
+      type: string
+      label: 'Location'
+    processor:
+      type: string
+      label: 'Processor'
+    processor_type:
+      type: string
+      label: 'Processor type'

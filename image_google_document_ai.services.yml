@@ -1,0 +1,12 @@
+services:
+  logger.channel.image_google_document_ai:
+    parent: logger.channel_base
+    arguments: ['image_google_document_ai']
+
+  image_google_document_ai.data_extractor:
+    class: Drupal\image_google_document_ai\ImageGoogleDocumentAIDataExtractor
+    arguments: ['@stream_wrapper_manager', '@plugin.manager.image_google_document_ai_processor_type', '@config.factory']
+
+  plugin.manager.image_google_document_ai_processor_type:
+    class: Drupal\image_google_document_ai\ImageGoogleDocumentAiProcessorTypePluginManager
+    parent: default_plugin_manager
